@@ -1,0 +1,118 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+header{
+    width:100%;
+    height:70px;
+    background-color: white;
+    box-shadow: 0px 0px 12px black;
+    position: fixed;
+    z-index: 1;
+}
+header button{
+    width: 100px;
+    padding: 10px;
+    margin-top: 12px;
+    border:none;
+    background:none;
+    outline:none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px whitesmoke;
+    font-weight: bold;
+    transition: 1s;
+
+}
+header button:hover{
+    color: rgb(43, 43, 154);
+    box-shadow: 0px 0px 15px silver;
+
+}
+header img{
+    width: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+#moo1{
+    width: 100%;
+    height: 600px;
+}
+aside{
+    width: 13px;
+    height: 400px;
+    background-color: red;
+    float: right;
+}
+aside button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #407088;
+}
+thead{
+    background-color:rgb(52, 106, 168) ;
+    height: 40px;
+
+}
+td{
+    background-color: rgba(54, 84, 156, 0.205);
+}
+table{
+    width: 100%;
+    text-align:center;
+}
+main {
+    width:87% ;
+    height:400px;
+    margin-top: 4px;
+}
+main h2{
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    }
+
+main img{
+    width: 90px;
+}
+main p{
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+
+
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+    clear:both;
+    box-shadow: 0px 0px 40px black;
+}
+footer div{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left:85px ;
+    color:red ;
+    float: left;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+
+}
+footer div a:hover{
+    color:red
+}
